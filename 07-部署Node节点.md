@@ -34,6 +34,8 @@ $
 
 ### 下载最新的 docker 二进制文件
 
+最新版本可以从https://download.docker.com/linux/static/stable/x86_64/ 看
+
 ``` bash
 $ wget https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz
 $ tar -xvf docker-17.04.0-ce.tgz

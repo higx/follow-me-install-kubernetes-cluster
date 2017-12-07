@@ -16,7 +16,7 @@ $
 从 docker compose [发布页面](https://github.com/docker/compose/releases)下载最新的 `docker-compose` 二进制文件
 
 ``` bash
-$ wget https://github.com/docker/compose/releases/download/1.12.0/docker-compose-Linux-x86_64
+$ curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 $ mv ~/docker-compose-Linux-x86_64 /root/local/bin/docker-compose
 $ chmod a+x  /root/local/bin/docker-compose
 $ export PATH=/root/local/bin:$PATH
